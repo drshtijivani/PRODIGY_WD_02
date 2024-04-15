@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="Task_2.css"> <!-- Link to the updated CSS -->
+</head>
+<body>
+    <div class="stopwatch-container">
+        <div class="display">00:00:00</div>
+        <div class="milliseconds">000</div>
+        <div class="buttons">
+            <button class="btn-6" onclick="startStop()"><span>Start/Stop</span></button>
+            <button class="btn-6" onclick="lap()"><span>Lap</span></button>
+            <button class="btn-6" onclick="reset()"><span>Reset</span></button>
+        </div>
+        <ul class="laps"></ul>
+    </div>
+    <script src="Task_2.js"></script>
+</body>
+</html>
